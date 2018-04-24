@@ -12,6 +12,7 @@ class FirstViewController: UIViewController {
 
     @IBOutlet weak var messageLabel: UILabel!
     
+    // Go to second screen when the button is pressed
     @IBAction func ignitionButtonPressed(_ sender: Any) {
         performSegue(withIdentifier: "goToSecondViewController", sender: self)
     }
