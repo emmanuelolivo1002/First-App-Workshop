@@ -10,9 +10,10 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet weak var messageLabel: UILabel!
     
     @IBAction func ignitionButtonPressed(_ sender: Any) {
-        
+        performSegue(withIdentifier: "goToSecondViewController", sender: self)
     }
     
     

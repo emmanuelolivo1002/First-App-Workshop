@@ -12,22 +12,35 @@ class SecondViewController: UIViewController {
 
     // MARK: Outlets
     
+    @IBOutlet weak var rocketBottomConstraint: NSLayoutConstraint!
     
     @IBOutlet weak var rocketImageView: UIImageView!
     
+    @IBOutlet weak var restartButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
-        UIView.animate(withDuration: 2.3, animations: {
-            self.rocketImageView.frame = CGRect(x: 0, y: 140, width: 375, height: 402)
-        }) { (finished) in
-           print("Done")
-        }
-        
+        restartButton.isHidden = true
         
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        self.rocketBottomConstraint.constant = 300
+      
+        
+        UIView.animate(withDuration: 2.5, animations: {
+            self.view.layoutIfNeeded()
+        }) { (finished) in
+            
+            self.restartButton.isHidden = false
+            
+        }
+    }
 
-
+    @IBAction func restartButtonPressed(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
 }
