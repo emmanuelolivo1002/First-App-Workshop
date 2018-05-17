@@ -28,11 +28,12 @@ class SecondViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        // Change rocket position
-        self.rocketBottomConstraint.constant = 300
+        
       
         // Animate
         UIView.animate(withDuration: 2.5, animations: {
+            // Change rocket position
+            self.rocketBottomConstraint.constant = 300
             self.view.layoutIfNeeded()
         }) { (finished) in
             
