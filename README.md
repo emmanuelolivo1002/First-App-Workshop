@@ -2,7 +2,7 @@
 
 This is a simple app with two screens, two buttons and one UIView animation. Made for [Valley Technical Academy](http://www.valleytechnicalacademy.com/) Intro to iOS Development Workshop
 
-![Demo](https://imgur.com/0pQqLx5.gif)
+![Demo](https://i.imgur.com/UYTE6FN.gif)
 
 ## Concepts Used
 
