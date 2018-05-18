@@ -7,11 +7,11 @@ This is a simple app with two screens, two buttons and one UIView animation. Mad
 ## Concepts Used
 
 - Interface Builder
-- Adding objects to view
+- Adding Objects to View
 - Outlets
 - Actions
 - UIView Animation
-- Constraints
+- Layout Constraints
 - Importing Assets
 - Segues
 
