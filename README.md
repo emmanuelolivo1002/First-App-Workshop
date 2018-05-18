@@ -1,0 +1,19 @@
+# Valley Technical Academy: First App Workshop
+
+This is a simple app with two screens, two buttons and one UIView animation. Made for [Valley Technical Academy](http://www.valleytechnicalacademy.com/) Intro to iOS Development Workshop
+
+![Demo](https://imgur.com/0pQqLx5.gif)
+
+## Concepts Used
+
+- Interface Builder
+- Adding objects to view
+- Outlets
+- Actions
+- UIView Animation
+- Constraints
+- Importing Assets
+- Segues
+
+## Assets Folder
+[Download Assets](https://www.dropbox.com/s/x0cnob2djmu2jgi/First-App-Workshop.zip?dl=0)
